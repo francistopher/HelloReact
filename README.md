@@ -1,3 +1,3 @@
-# React
+# Periodic Table Study Buddy
 
-Branches of React based projects.
+React version of iOS version I made
