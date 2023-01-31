@@ -1,6 +1,6 @@
 # Chimp Memory Game
 
-Can you surpass [Chimp short term low memory](./https://www.youtube.com/watch?v=qyJomdyjyvM)?
+Can you surpass [Chimp short term low memory](https://www.youtube.com/watch?v=qyJomdyjyvM)?
 
 ## Versions
 
