@@ -2,6 +2,15 @@
 
 Can you surpass [Chimp short term low memory](https://www.youtube.com/watch?v=qyJomdyjyvM)?
 
-## Versions
+## To do
 
-0.0 Project Built
+- add settings toggle button
+    - add theme toggle button
+    - add volume toggle button
+    
+- add continue button
+- render numbers
+- render mechanism
+- render you win
+- render you loose
+	
