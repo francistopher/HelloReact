@@ -1,26 +1,23 @@
-import React, {useState} from 'react';
-import logo from './res/chimp.png';
-import './App.css';
-
-import {lightTheme, darkTheme} from './view/Themes';
+import React, { useState } from "react";
+import "./assets/styles/App.css";
+import { lightTheme, darkTheme } from "./assets/styles/Themes";
+import ThemeButton from "./components/Buttons/ThemeButton";
+import IntroLabel from "./components/Labels/IntroLabel";
 
 const App = () => {
-  const [theme, setTheme] = useState(lightTheme);
-  const themeToggler = () => {
-     (theme === lightTheme) ? setTheme(darkTheme) : setTheme(lightTheme)
-  }
+    const [theme, setTheme] = useState(lightTheme);
+    const themeToggler = () => {
+        theme === lightTheme ? setTheme(darkTheme) : setTheme(lightTheme);
+    };
 
-  return (
-    <div className="App" id="App">
-      <header className="App-header" style={theme}>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Chimp Memory Game!
-        </p>
-        <button className="Theme-button" onClick={themeToggler}></button>
-      </header>
-    </div>
-  );
-}
+    return (
+        <div className="App" id="App">
+            <header className="App-header" style={theme}>
+                <IntroLabel></IntroLabel>
+                <ThemeButton onClick={themeToggler}></ThemeButton>
+            </header>
+        </div>
+    );
+};
 
 export default App;
